@@ -21,6 +21,12 @@
     float: right;
 }
 
+ul{
+    list-style-type: none;
+}
+
+
+
 /* tag nav */
 
 nav{
@@ -31,8 +37,8 @@ nav{
 }
 
 #logo{
-    margin: 20px 10px ;
-    height: 100%;
+    margin: 25px 35px;
+    height: 30%;
     width: 10%;
     float: left;
     background-image: url(../img/logo-small.png);
@@ -42,11 +48,23 @@ nav{
 }
 
 .menu{
-    border: 1px solid black;
     height: 100%;
-    width: 20%;
+    width: auto;
 }
 
+.menu li{
+    color: #0c0c0c;
+    font-family: 'Open sans';
+    padding: 31px 20px;
+    display: inline-block;
+    line-height: 120%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #0c0c0c;
+    font-weight: bold;
+}
 #inizia{
     border: 1px solid black;
     height: 100%;
