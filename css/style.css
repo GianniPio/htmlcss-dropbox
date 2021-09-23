@@ -96,7 +96,6 @@ main{
 
 .container_second{
     padding: 0 10%;
-    background: orange;
 }
 
 #subscription{
@@ -141,4 +140,13 @@ article{
     background-color: peru;
     width: 100%;
     height: 80vh;
+}
+
+/* tag footer */
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    color: white;
 }
