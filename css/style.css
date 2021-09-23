@@ -24,17 +24,21 @@
 /* tag nav */
 
 nav{
-    height: 100px;
+    height: 90px;
     width: 100%;
     position: fixed;
     background-color: #fff;
 }
 
 #logo{
-    border: 1px solid black;
+    margin: 20px 10px ;
     height: 100%;
     width: 10%;
     float: left;
+    background-image: url(../img/logo-small.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 .menu{
@@ -127,7 +131,7 @@ article{
 #cit{
     background-color: mediumblue;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
 }
 
 #gratis{
