@@ -75,13 +75,11 @@ header p{
 }
 
 #jumbotron_head{
-    background-color: red;
-    border: 1px solid black;
     height: 51%;
     width: 100%;
 }
 
-#jumbotron{
+.jumbotron{
     height: 100%;
     width: 50%;
     background-color: green;
@@ -89,3 +87,58 @@ header p{
     border: 1px solid black;
 }
 
+/* tag main */
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.container_second{
+    padding: 0 10%;
+    background: orange;
+}
+
+#subscription{
+    background-color: brown;
+    width: 100%;
+    height: 150vh;
+}
+
+#contact{
+    margin: 70px 0;
+    background-color: chartreuse;
+    width: 100%;
+    height: 105vh;
+}
+
+#strumenti{
+    background-color: darkorchid;
+    width: 100%;
+    height: 150vh ;
+}
+
+article{
+    background-color:gold;
+    width: 100%;
+    height: 35vh;
+    margin-top: 150px;
+}
+
+#cit{
+    background-color: mediumblue;
+    width: 100%;
+    height: 50vh;
+}
+
+#gratis{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 30vh;
+}
+
+#info{
+    background-color: peru;
+    width: 100%;
+    height: 80vh;
+}
