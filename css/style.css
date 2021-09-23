@@ -25,7 +25,18 @@ ul{
     list-style-type: none;
 }
 
-
+.blu{
+    height: 50%;
+    width: auto;
+    padding: 10px 15px;
+    background-color: #0061ff;
+    color: white;
+    font-family: 'Open sans';
+    cursor: pointer;
+    margin: 20px;
+    line-height: 22px;
+    font-size: 18px;
+}
 
 /* tag nav */
 
@@ -34,6 +45,7 @@ nav{
     width: 100%;
     position: fixed;
     background-color: #fff;
+    margin-top: -90px;
 }
 
 #logo{
@@ -44,7 +56,6 @@ nav{
     background-image: url(../img/logo-small.png);
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 .menu{
@@ -58,6 +69,7 @@ nav{
     padding: 31px 20px;
     display: inline-block;
     line-height: 120%;
+    font-size: 18px;
 }
 
 .menu a{
@@ -65,37 +77,29 @@ nav{
     color: #0c0c0c;
     font-weight: bold;
 }
-#inizia{
-    height: 50%;
-    width: auto;
-    padding: 10px 15px;
-    background-color: #0061ff;
-    color: white;
-    font-family: 'Open sans';
-    cursor: pointer;
-    margin: 20px;
-    line-height: 22px;
-}
-
 
 /* tag header */
 
 header{
     background-color: #b4d0e7;
-    border: 1px solid black;
-    height: 98vh;
+    height: 85vh;
     width: 100vw;
+    margin-top: 90px;
 }
 
 
-header p{
+#testo{
     border: 1px soldi black;
     height: 300px;
     width: 100%;
     font-size: 100px;
     font-weight: bolder;
     font-family: sans-serif;
-    margin-top: 150px;
+    padding-top: 50px;
+}
+
+header p{
+    text-align: left;
 }
 
 .container_first{
@@ -103,17 +107,44 @@ header p{
 }
 
 #jumbotron_head{
-    height: 51%;
+    height:65.2%;
     width: 100%;
 }
 
-.jumbotron{
+#jumbotron_text{
     height: 100%;
-    width: 50%;
-    background-color: green;
+    width: 35%;
     float: left;
-    border: 1px solid black;
+    padding-top: 30px;
 }
+
+#jumbotron_text p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+#jumbotron_text .blu{
+    margin: 0;
+}
+
+#jumbotron_img{
+    height: 100%;
+    width: 65%;
+    float: right;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px -120px 0 0;
+}
+
+#freccia, #freccia a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black ;
+}
+
 
 /* tag main */
 
