@@ -89,7 +89,6 @@ header{
 
 
 #testo{
-    border: 1px soldi black;
     width: 100%;
     font-size: 100px;
     font-weight: bolder;
@@ -159,7 +158,6 @@ main{
 /* tag subcription */
 
 #subscription{
-    background-color: brown;
     width: 100%;
     height: 150vh;
 }
@@ -174,20 +172,28 @@ main{
 
 #tabelle{
     margin-top: 30px;
-    background-color: red;
-    width: calc(100% / 3);
-    height: 80%;
+    height: 81%;
 }
 
-#professional{
+.table_3{
     border: 1px solid black;
     width: 100%;
     height: 100%;
+    width: calc(92% / 3);
+    float: left;
+
 }
 
-.fa-user{
-    font-size: 30px;
+.center{
+    margin: auto 50px;
 }
+
+.table, .far{
+    font-size: 25px;
+    margin: 20px 150px;
+    color: #242424;
+}
+
 /* contact */
 
 #contact{
