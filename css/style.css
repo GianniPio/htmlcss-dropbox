@@ -246,7 +246,7 @@ h2{
     width: 20%;
 }
 
-.fa-check, .link a:visited{
+.fa-check, .link a:visited, article a:visited{
     color: #0c69ff;
 }
 /* contact */
@@ -337,7 +337,7 @@ h2{
     padding-top: 60px;
 }
 
-#strumenti h1{
+#strumenti h1, article h1{
     font-size:50px;
     font-family: sans-serif;
     margin-bottom: 20px;
@@ -389,11 +389,11 @@ h2{
     font-size: 18px;
 }
 
+/* Articoli */
+
 article{
-    background-color:gold;
-    width: 100%;
-    height: 35vh;
-    margin-top: 150px;
+    width: 700px;
+    height: 22vh;
 }
 
 /* cit */
