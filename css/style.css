@@ -177,10 +177,11 @@ main{
 
 .table_3{
     border: 1px solid black;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     width: calc(92% / 3);
     float: left;
+    font-family: sans-serif;
 
 }
 
@@ -188,12 +189,66 @@ main{
     margin: auto 50px;
 }
 
-.table, .far{
+.table_3 > .far{
     font-size: 25px;
     margin: 20px 150px;
     color: #242424;
 }
 
+.container_table{
+    margin: 30px 30px;
+}
+
+.container_table > h2{
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.price{
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.periodo{
+    font-family: sans-serif;
+    color: #647482;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.container_table li{
+    margin: 20px 0;
+    font-weight: bold ;
+}
+
+.container_table > .blu{
+    margin-left: 37px;
+    padding: 15px 37px;
+}
+
+.container_table ul{
+    margin-bottom: 70px;
+}
+
+.link{
+    margin: 50px 0;
+    font-family: sans-serif;
+}
+
+.link a:visited{
+    color: #0061ff;
+}
+
+.link hr{
+    margin-top: 40px;
+    border: 1px solid #f5f5f6;
+    width: 20%;
+}
 /* contact */
 
 #contact{
