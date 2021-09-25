@@ -26,8 +26,6 @@ ul{
 }
 
 .blu{
-    height: 50%;
-    width: auto;
     padding: 10px 15px;
     background-color: #0061ff;
     color: white;
@@ -221,6 +219,10 @@ h2{
     display: block;
 }
 
+.radio{
+    margin-right: 15px;
+}
+
 .container_table li{
     margin: 20px 0;
     font-weight: bold ;
@@ -399,9 +401,72 @@ article{
 /* cit */
 
 #cit{
-    background-color: mediumblue;
     width: 100%;
-    height: 70vh;
+    height: 59vh;
+}
+
+.contenitore_uni{
+    height: 100%;
+    width: calc(90% / 3);
+    float: left;
+}
+
+.contenitore_cit{
+    background-color: #f5f5f5;
+    float: left;
+    height: 100%;
+    width: 761px;
+}
+
+.uni{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.no-repeat{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#color1{
+    background-color: #a2d39b;
+    background-image: url(../img/designit.svg);
+}
+
+#color2{
+    background-color: #61082b;
+    background-image: url(../img/arizona_state_university.svg);
+}
+
+#color3{
+    background-color: #0093ce;
+    background-image: url(../img/university_of_florida.svg);
+}
+
+#color4{
+    background-color: #ff1c1c;
+    background-image: url(../img/topps.svg);
+}
+
+#color5{
+    background-color: #d5001f;
+    background-image: url(../img/world_bicycle_relief.svg);
+}
+
+#color6{
+    background-color: #b4d0e7;
+    background-image: url(../img/hearst_corp.svg);
+}
+
+#color7{
+    background-color: #0d2481;
+    background-image: url(../img/lonely_planet.svg);
+}
+
+#color8{
+    background-color: #ffd830;
+    background-image: url(../img/clear_channel.svg);
 }
 
 /* gratis */
