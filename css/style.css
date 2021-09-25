@@ -417,7 +417,23 @@ article{
     float: left;
     height: 100%;
     width: 761px;
-    
+    padding: 50px;
+}
+
+.contenitore_cit img{
+    width: 150px;
+    height: 90px;
+}
+
+.contenitore_cit hr{
+    width: 50px;
+    border: 1px solid #dfdfe1;
+
+}
+
+.contenitore_cit p, .contenitore_cit span{
+    padding: 50px 0;
+    font-weight: bold;
 }
 
 .box{
