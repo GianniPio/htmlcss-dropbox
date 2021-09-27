@@ -604,6 +604,40 @@ article{
 footer{
     background-color: black;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     color: white;
 }
+
+#footer_sopra{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 80%;
+}
+
+#lingue{
+    width: 120px;
+    height: 20%;
+    color: gray;
+    border-top: 1px solid gray;
+    padding: 50px 0 0 0;
+}
+
+.table_elenco{
+    float: left;
+    width: calc(100% / 5);
+    height: 100%;
+    color: white;
+    padding-top: 80px;
+    line-height: 200%;
+}
+
+.table_elenco a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#lingue .fa-sort-up{
+    cursor: pointer;
+}
+
