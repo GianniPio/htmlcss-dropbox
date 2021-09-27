@@ -632,3 +632,11 @@ footer{
     cursor: pointer;
 }
 
+nav .sx a:hover, nav  .dx a:hover{
+    border-bottom: 1px solid blue;
+
+}
+
+.tendina span:hover{
+    display: none;
+}
