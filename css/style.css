@@ -25,14 +25,19 @@ ul{
     list-style-type: none;
 }
 
-.blu{
+.btn{
     padding: 10px 15px;
-    background-color: #0061ff;
-    color: white;
     cursor: pointer;
     margin: 20px;
     line-height: 22px;
     font-size: 18px;
+    color: black;
+    background-color: #fff;
+}
+
+.blu{
+    background-color: #0061ff;
+    color: white;
 }
 
 /* tag nav */
@@ -305,7 +310,7 @@ h2{
     margin-bottom: 50px;
 }
 
-.partner .container_table > .blu{
+.partner .container_table > .btn{
     color: black;
     background-color: #fff;
     border: 1px solid black;
